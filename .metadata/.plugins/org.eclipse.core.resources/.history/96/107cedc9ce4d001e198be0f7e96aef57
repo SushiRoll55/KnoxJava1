@@ -1,0 +1,21 @@
+
+public class SumOfInts {
+
+	public static void main (String[] args) {
+		//Declaring vars to be added
+		int num1 = 3;
+		int num2 = 7;
+		
+		//Declaring a var for result
+		int result;
+		
+		//Process data
+		result = num1 + num2;
+		Log("The sum of " + num1 + " and " + num2 + " is " + result);
+	}
+
+	//Method to make printing easier
+	public static void Log(String input) {
+		System.out.println(input);
+	}
+}

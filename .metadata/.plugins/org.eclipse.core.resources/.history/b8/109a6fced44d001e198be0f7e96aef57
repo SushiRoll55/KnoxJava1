@@ -1,0 +1,12 @@
+
+public class MathCalculations {
+
+	public static void main(String[] args) {
+		
+	}
+
+	//Method to make printing easier
+	public static void Log(String input) {
+		System.out.println(input);
+	}
+}
