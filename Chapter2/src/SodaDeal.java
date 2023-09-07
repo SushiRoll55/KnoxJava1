@@ -2,8 +2,16 @@
 public class SodaDeal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		int cansPerPack = 6;
+		
+		final double CAN_VOLUME = 0.335;
+		final double BOTTLE_VOLUME = 2;
+		
+		double total;
+		
+		total = cansPerPack * CAN_VOLUME;
+		
+		total = total + BOTTLE_VOLUME;
 	}
 
 }
