@@ -12,6 +12,9 @@ public class SodaDeal {
 		total = cansPerPack * CAN_VOLUME;
 		
 		total = total + BOTTLE_VOLUME;
+		
+		System.out.println("Total volume:");
+		System.out.print(total + " liters");
 	}
 
 }
