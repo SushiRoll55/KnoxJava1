@@ -1,5 +1,5 @@
 
-public class Lab {
+public class WordConcat {
 
 	public static void main(String[] args) {
 		
