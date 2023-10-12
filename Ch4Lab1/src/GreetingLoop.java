@@ -1,5 +1,5 @@
 //Knox, Caden
-//October 5, 2023
+//October 10, 2023
 //CS A170
 //Chapter 4 Lab 1
 
@@ -19,12 +19,19 @@ public class GreetingLoop {
 			//Prompt user with action
 			System.out.print("Hello\nDo you want another greeting?\nPress y for yes, n for no,\nand then press return: ");
 			
-			//Set action string to first three characters of input
-			action = n.next().substring(0, Math.min(Math.max(action.length(), 1), 3));
+			//Get input and assign it to action
+			action = n.next();
 			
-		} while(action.equalsIgnoreCase("y") || action.equalsIgnoreCase("yes") || action.equalsIgnoreCase("yup")); //Loop while input is yes or yup
+			//Clamp action length
+			int length = Math.max(0, Math.min(1, action.length()));
+			
+			//Set action to clamped length
+			action.substring(0, length);
+			
+		} while(action.equalsIgnoreCase("y") || action.equalsIgnoreCase("yes") || action.equalsIgnoreCase("yup"));
 		
 		//Print after while loop finishes
 		System.out.print("Good-Bye");
 	}
 }
+
