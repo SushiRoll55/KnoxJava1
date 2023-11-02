@@ -18,31 +18,47 @@ public class SimpleCalculator {
 		int num1 = in.nextInt();
 		int num2 = in.nextInt();
 		
-		//Print results
-		System.out.println("The sum of " + num1 + " and " + num2 + " is " + addition(num1,num2));
-		System.out.println("The difference of " + num1 + " and " + num2 + " is " + subtraction(num1,num2));
-		System.out.println("The product of " + num1 + " and " + num2 + " is " + multiplication(num1,num2));
-		System.out.println("The quotient of " + num1 + " and " + num2 + " is " + division(num1,num2));
+		//Call functions for addition and multiplacation
+		addition(num1, num2);
+		multiplication(num1, num2);
 	}
 
-	public static double addition(double x, double y) {
-		return x + y;
+	public static void addition(double x, double y) {
+		System.out.println("The sum of " + x + " and " + y + " is " + (x + y));
+		subtraction(x, y);
 	}
 	
-	public static double subtraction(double x, double y) {
-		return x - y;
-	}
-	
-	public static double multiplication(double x, double y) {
-		return x * y;
-	}
-	
-	public static double division(double x, double y) {
-		if (y == 0)
-		{
-			System.out.println("Cannot divide by zero");
-			return 0;
+	public static void subtraction(double x, double y) {
+		double result = 0;
+		if (x > y) {
+			result = x - y;
 		}
-		return (double)x / (double)y;
+		else {
+			result = y - x;
+		}
+		System.out.println("The difference of " + x + " and " + y + " is " + result);
+	}
+	
+	public static void multiplication(double x, double y) {
+		System.out.println("The product of " + x + " and " + y + " is " + (x * y));
+		division(x, y);
+	}
+	
+	public static void division(double x, double y) {
+		double result = 0;
+		if (x > y && y != 0) {
+			result = ((double)x / (double)y);
+		}
+		else if (x < y && x != 0) {
+			result = ((double)y / (double)x);
+		}
+		else if (x == y) {
+			result = 1;
+		}
+		else {
+			System.out.println("Can't divide by zero");
+			return;
+		}
+		System.out.println("The quotient of " + x + " and " + y + " is " + result);
 	}
 }

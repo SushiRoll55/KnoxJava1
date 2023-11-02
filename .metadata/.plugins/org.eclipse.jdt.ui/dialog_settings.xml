@@ -64,33 +64,18 @@
 		<item key="nonavbar" value="false"/>
 		<item key="openinbrowser" value="false"/>
 		<item key="source" value="17"/>
-		<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch5Lab1\javadoc.xml"/>
-		<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch5Lab1\doc"/>
+		<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\WillisCadenProjectTwo\javadoc.xml"/>
+		<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\WillisCadenProjectTwo\doc"/>
 		<section name="projects">
-			<section name="Ch3Lab1">
-				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch3Lab1\doc"/>
-				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch3Lab1\javadoc.xml"/>
-			</section>
 			<section name="Ch3Lab2">
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch3Lab2\doc"/>
 				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch3Lab2\javadoc.xml"/>
 			</section>
-			<section name="Ch3Lab3">
-				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch3Lab3\doc"/>
-				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch3Lab3\javadoc.xml"/>
-			</section>
 			<section name="Ch2Lab1">
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch2Lab1\doc"/>
 				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch2Lab1\javadoc.xml"/>
-			</section>
-			<section name="Ch2Lab2">
-				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch2Lab2\doc"/>
-				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch2Lab2\javadoc.xml"/>
 			</section>
 			<section name="Ch2Lab3">
 				<item key="href" value=""/>
@@ -102,15 +87,45 @@
 				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch4Lab1\doc"/>
 				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch4Lab1\javadoc.xml"/>
 			</section>
-			<section name="Ch4Lab2">
-				<item key="href" value=""/>
-				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch4Lab2\doc"/>
-				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch4Lab2\javadoc.xml"/>
-			</section>
 			<section name="Ch4Lab3">
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch4Lab3\doc"/>
 				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch4Lab3\javadoc.xml"/>
+			</section>
+			<section name="Ch5Lab2">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch5Lab2\doc"/>
+				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch5Lab2\javadoc.xml"/>
+			</section>
+			<section name="WillisCadenProjectTwo">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\WillisCadenProjectTwo\doc"/>
+				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\WillisCadenProjectTwo\javadoc.xml"/>
+			</section>
+			<section name="Ch3Lab1">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch3Lab1\doc"/>
+				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch3Lab1\javadoc.xml"/>
+			</section>
+			<section name="Ch3Lab3">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch3Lab3\doc"/>
+				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch3Lab3\javadoc.xml"/>
+			</section>
+			<section name="Ch2Lab2">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch2Lab2\doc"/>
+				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch2Lab2\javadoc.xml"/>
+			</section>
+			<section name="NewtonsMethod">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\NewtonsMethod\doc"/>
+				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\NewtonsMethod\javadoc.xml"/>
+			</section>
+			<section name="Ch4Lab2">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch4Lab2\doc"/>
+				<item key="antpath" value="C:\Users\cknox17\Desktop\KnoxJava1\Ch4Lab2\javadoc.xml"/>
 			</section>
 			<section name="Ch5Lab1">
 				<item key="href" value=""/>
