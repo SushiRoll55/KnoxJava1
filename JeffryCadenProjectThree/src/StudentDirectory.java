@@ -5,6 +5,17 @@
 
 import java.util.*;
 
+/**
+ * @author Truong, Jeffrey
+ * @author Knox, Caden
+ * 
+ *  November 14, 2023
+ *  
+ *  CS A170
+ * 	Proj 3
+ * 	
+ */
+
 public class StudentDirectory {
 
 	//Init static scanner
@@ -38,7 +49,7 @@ public class StudentDirectory {
 				addStudent(names, grades);
 				break;
 			case 2:
-				removeStudent(names);
+				removeStudent(names, grades);
 				break;
 			case 3:
 				listStudents(names, grades);
@@ -96,7 +107,7 @@ public class StudentDirectory {
 	 * This method allows the user to remove a student based on a name
 	 * @param names of the students
 	 */
-	public static void removeStudent(ArrayList<String> names) {
+	public static void removeStudent(ArrayList<String> names, ArrayList<Integer> grades) {
 		//Prompt for name
 		System.out.print("Enter the student's name to remove: ");
 		String name = in.next();
@@ -105,6 +116,7 @@ public class StudentDirectory {
 		for (int i = 0; i < names.size(); i++) {
 			if (name.equalsIgnoreCase(names.get(i))) {
 				names.remove(i);
+				grades.remove(i);
 				System.out.println(name + " has been removed from the list.");
 				return;
 			}
