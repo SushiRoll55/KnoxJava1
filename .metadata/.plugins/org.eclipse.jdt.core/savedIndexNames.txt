@@ -1,24 +1,5 @@
-INDEX VERSION 1.131+C:\Users\cknox17\Desktop\KnoxJava1\.metadata\.plugins\org.eclipse.jdt.core
-3965539962.index
-2389339678.index
-2565206770.index
-1573002868.index
-1621243844.index
-1179441560.index
-2393659112.index
-2777013058.index
-4170404554.index
-2822944948.index
-1501069007.index
-2939327725.index
-1885892441.index
-396691282.index
-32285512.index
-1303381641.index
-3016523608.index
-3123499663.index
-3531795412.index
-717565666.index
+INDEX VERSION 1.131+C:\Users\cknox17\Documents\GitHub\KnoxJava1\.metadata\.plugins\org.eclipse.jdt.core
+1661177580.index
+3030480810.index
 1865797976.index
-3745876002.index
-1015843576.index
+1095645619.index
