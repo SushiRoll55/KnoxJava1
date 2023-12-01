@@ -11,11 +11,19 @@ public class RectangleDemo {
 		Rectangle box3 = new Rectangle(50, 40);
 		
 		System.out.println("Test case 1: ");
-		box1.printDimentions();
-		System.out.println("Area1 is: " + box1.getLength() * box1.getWidth() + " sq. ft.");
-		System.out.println("Area2 is: " + box1.getArea() + " sq. ft.");
-		System.out.println("The perimeter is: " + box1.getPerimeter() + " ft.");
+		runTestCase(box1);
 		
-		//now do test cases 2 and 3
+		System.out.println("\nTest case 2: ");
+		runTestCase(box2);
+		
+		System.out.println("\nTest case 3: ");
+		runTestCase(box3);
+	}
+	
+	static void runTestCase(Rectangle box) {
+		box.printDimentions();
+		System.out.println("Area1 is: " + box.getLength() * box.getWidth() + " sq. ft.");
+		System.out.println("Area2 is: " + box.getArea() + " sq. ft.");
+		System.out.println("The perimeter is: " + box.getPerimeter() + " ft.");
 	}
 }

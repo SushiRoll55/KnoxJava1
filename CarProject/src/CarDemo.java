@@ -11,9 +11,18 @@ public class CarDemo {
 
 	public static void main(String[] args) {
 		//Part A
-		Car adamCar = new Car();
-		Car sarahCar = new Car("Toyota", "Tacoma", 2022, 20, "blue", 40000);
+		//Car adamCar = new Car();
 		
+		Car sarahCar = new Car("Toyota", "Tacoma", 2022, 20, "blue", 40000, "Car Max");
+		sarahCar.displayDealer();
+		
+		/*
+		Car anotherCar = sarahCar;
+		System.out.println(sarahCar.getColor());
+		System.out.println(anotherCar.getColor());
+		*/
+		
+		/*
 		//Part B
 		adamCar.setMake("Ford");
 		adamCar.setModel("Mustang");
@@ -40,5 +49,6 @@ public class CarDemo {
 		System.out.println(adamCar.getSpeed());
 		adamCar.brake(20);
 		System.out.println(adamCar.getSpeed());
+		*/
 	}
 }

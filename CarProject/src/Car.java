@@ -15,22 +15,28 @@ public class Car {
 	private int speed;
 	private String color;
 	private double price;
+	private String dealer;
 	
 	//Constructors
 	public Car() {
 		
 	}
 	
-	public Car(String make, String model, int year, int speed, String color, double price) {
+	public Car(String make, String model, int year, int speed, String color, double price, String dealer) {
 		this.make = make;
 		this.model = model;
 		this.year = year;
 		this.speed = speed;
 		this.color = color;
 		this.price = price;
+		this.dealer = dealer;
 	}
 	
 	//Instance methods
+	
+	public void displayDealer() {
+		System.out.println(dealer);
+	}
 	
 	public String getMake() {
 		return make;
